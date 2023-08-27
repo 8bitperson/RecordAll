@@ -1,5 +1,5 @@
 # RecordAll
-Files supported: .WAV .MP3 .M4A                   
+Files supported: .WAV                
 
 
 Link: https://8bitperson.github.io/RecordAll/

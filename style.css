@@ -1,7 +1,20 @@
 *{
  background-color: #ddeedf;
 }
-
+.h{
+  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.o{
+  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
 .body{
     display: flex;
     justify-content: center;
@@ -210,6 +223,12 @@ p{
 }
 
 .hh{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.m4a{
   margin-bottom: 20px;
   display: flex;
   justify-content: center;

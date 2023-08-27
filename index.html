@@ -4,16 +4,16 @@
 <head>
     <title>Audio Recording Software</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
+
 </head>
 
 <body>
-    
+
     <div class="controls">
         <button id="recordingButton" class="button-85" role="button">Start Recording</button>
         <script>
             const button = document.getElementById('recordingButton');
-    
+
             button.addEventListener('click', function() {
                 if (button.getAttribute('id') === 'recordingButton') {
                     button.setAttribute('id', 'stopRecording');
@@ -26,14 +26,10 @@
     </script>    
     </div>   
     <div class="dwn"><a id="downloadLink" style="display: none;">.WAV</a></div>
-    <div class="dwn"><a id="downloadLinkMp3" style="display: none;">mp3</a></div>
-    <div class="dwn"><a id="downloadLinkm4a" style="display: none;">m4a</a></div>
+    <div class="o"><a id="downloadLinkMp3" style="display: none;">mp3</a></div>
     <div class="wee"><audio id="recordedAudio" controls></audio></div>
-    <div class="h">
-    <a id="downloadWavButton" style="display: none;">.wav</a></div>
-    <div class="o"><a id="downloadMp3Button" style="display: none;">.mp3</a></div>
-    <div class="m4a"><a id="downloadm4aButton" style="display: none;">.m4a</a></div>
     <script src="pp.js"></script>
 
 </body>
 </html>
+
